@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/public/pharmgreen.png?raw=true" width="60%" alt="Pharmgreen" />
+</div>
+<hr>
+<div align="center" style="line-height: 1;">
+  <a href="https://mail.google.com/" target="_blank" style="margin: 2px;">
+    <img alt="Gmail" src="https://img.shields.io/badge/Gmail-pharmgreen1337@intra.com-blue?logo=gmail" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+</div>
+
 # TSSR-2411-P3-G4-Pharmgreen
 ## 📚 Pharmgreen README
 
@@ -9,8 +19,6 @@
 - [👥 Membres du groupe](#membres-du-groupe)
 - [🌐 Configuration Réseau](#config-reseau)
 - [⚙️ Choix Techniques](#choix-tech)
-- [⚠️ Difficultés rencontrées](#difficultés-rencontrées)
-- [💡 Solutions trouvées](#solutions)
 - [🚀 Améliorations envisageable](#améliorations)
 - [🔚 Conclusion](#conclusion)
 ---
@@ -55,3 +63,12 @@ Pour résumer, Notre rôle est de mettre en place une infrastructure de A à Z, 
 > [!NOTE]  
 > Toutes nos machines sont hypervisées via **Proxmox** et configurées sur celui-ci.
 ---
+### **🚀 Améliorations envisageable**
+<span id="améliorations"></span> 
+
+- A définir.
+---
+### **🔚 Conclusion**
+<span id="conclusion"></span>
+
+- A définir.
