@@ -4,7 +4,7 @@
 <hr>
 <div align="center" style="line-height: 1;">
   <a href="https://mail.google.com/" target="_blank" style="margin: 2px;">
-    <img alt="Gmail" src="https://img.shields.io/badge/Gmail-pharmgreen1337@intra.com-blue?logo=gmail" style="display: inline-block; vertical-align: middle;"/>
+    <img alt="Gmail" src="https://img.shields.io/badge/Gmail-pharmgreen@intra.com-blue?logo=gmail" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
 
