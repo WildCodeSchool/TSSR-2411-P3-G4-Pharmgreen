@@ -25,7 +25,7 @@ Pour résumer, Notre rôle est de mettre en place une infrastructure de A à Z, 
 | --------- | --------- |-------------------|
 | Alexandre | Scrum Master, Technicien | Création d'un script pour intégrer des GPO<br>Utilisation de la méthode scrum<br>Supervision des objectifs
 | Balt      | Product Owner, Technicien | Création d'un script permettant de supprimer des OU de manière rapide et dynamique<br>Création d'un plat schématique du futur réseau
-| Ismail    | Technicien | Brain storming<br>Création du serveur core
+| Ismail    | Technicien | Brain storming<br>Création du serveur core<br>Configuration et installation de services demandées
 | Tom       | Technicien | Création d'un script pour intégrer une arborescence d'OU via un XLSX<br>Création d'un script pour intégrer des utilisateurs à un AD via un XLSX<br>Création de la documentation |
 
 ---
