@@ -51,7 +51,7 @@ Mise en place d'un schéma du réseau
 > Clique sur les images pour les afficher en grand.
 
 **Haut du schéma:**
-<img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/bas.png?raw=true" alt="Plan Réseau" width="1900">
+<img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/haut.png?raw=true" alt="Plan Réseau" width="1900">
 **Bas du schéma:**
 <img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/bas.png?raw=true" alt="Plan Réseau" width="1900">
 
