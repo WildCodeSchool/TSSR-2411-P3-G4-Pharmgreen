@@ -29,7 +29,7 @@ Ce script permet de **configurer** l'ADDS sur un serveur **Windows Core**, c'est
 Il permet **d'automatiser** entièrement l'installation et la configuration via un script, sans avoir à saisir un grand nombre de commandes, ce qui représente un **gain de temps considérable**.
 
 - **Création d'un script**
-  - **Installation AD-DS & DNS**: Si l'AD-DS ainsi que le DNS ne sont pas installés, le script les installe automatiquement.
+  - **Installation AD-DS**: Si l'AD-DS n'est pas installé, le script l'installe automatiquement.
   - **Configuration IP**: Le script récupère les paramètres du serveur depuis un fichier CSV et configure, via ce fichier, le nom du serveur, l'adresse IP, l'utilisateur, le mot de passe, etc.
   - **Confirmation**: Il confirme les modifications et l'installation, puis redémarre la machine.
 
@@ -45,3 +45,13 @@ Mise en place d'un schéma du réseau
     - **DMZ**
     - **Méthode de load balancing**
     - **Sécurité** (Firewall, Honeypot)
+
+**Schéma du réseau**:
+> [!TIP]
+> Clique sur les images pour les afficher en grand.
+
+**Haut du schéma:**
+<img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/bas.png?raw=true" alt="Plan Réseau" width="1900">
+**Bas du schéma:**
+<img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/bas.png?raw=true" alt="Plan Réseau" width="1900">
+
