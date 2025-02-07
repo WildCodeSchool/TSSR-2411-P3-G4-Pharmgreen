@@ -48,7 +48,7 @@ Pour résumer, Notre rôle est de mettre en place une infrastructure de A à Z, 
 - Configuration GPO
   - Manuelle
 
-**4. Plan réseau **
+**4. Plan réseau**
 Création d'un schéma avancé du réseau via Cisco Packet Tracer
 
 ---
