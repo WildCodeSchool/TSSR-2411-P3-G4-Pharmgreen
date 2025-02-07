@@ -20,10 +20,10 @@ Pour résumer, Notre rôle est de mettre en place une infrastructure de A à Z, 
 <span id="sprint1"></span> 
 | Prénom    | Rôles     | Travaux effectués |
 | --------- | --------- |-------------------|
-| Alexandre | Scrum Master, Technicien | Création et intégration des GPO<br>Création des groupes<br>Utilisation de la méthode scrum<br>Supervision des objectifs
+| Alexandre | Technicien | Création et intégration des GPO<br>Création des groupes<br>Utilisation de la méthode scrum<br>Supervision des objectifs
 | Balt      | Product Owner, Technicien | Création d'un script pour l'installation de GLPI et ses dépendances et ainsi que automatiser leurs configuration.<br>Supervision des objectifs
 | Ismail    | Technicien | Création d'un script pour l'automatisation et la configuration de L'AD-DS pour le Windows Core<br> Mise en place de la présentation du sprint
-| Tom       | Technicien | Création d'un schéma avancé du Réseau via Cisco Packet Tracer<br> Supervisation de la documentation
+| Tom       | Technicien? Scrum | Création d'un schéma avancé du Réseau via Cisco Packet Tracer<br> Supervisation de la documentation
 
 ---
 ### **🎯 Objectifs [S3]**
