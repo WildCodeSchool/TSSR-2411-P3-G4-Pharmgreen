@@ -5,7 +5,7 @@
 - [⚙️ Refonte infrastructure](#refonte)
 - [🌐 PfSense](#pfsense)
 - [🍯 HoneyPot](#honeypot)
-
+- [📅 Avancée de la semaine](#av-sem)
 ---
 
 ### **⚙️ Refonte infrastructure**
@@ -31,7 +31,16 @@ Mise en place d'un **firewall** PfSense qui permet à notre infrastructure rése
 <span id="honeypot"></span> 
 
 Mise en place d'un serveur Debian configuré en tant qu'HoneyPot permettant à notre infrastructure réseau de ne pas se faire **pénétrer** par quelconques pirates informatiques : 
-
 > [!Warning]  
 > Encore à définir !
+---
+
+### **📅 Avancée de la semaine**
+<span id="av-sem"></span>
+
+Voici l'avancée de notre 4ème semaine ci-dessous : 
+<img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/av-sem%2004.png" alt="Plan Réseau">
+
+
+
   
