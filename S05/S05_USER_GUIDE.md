@@ -7,7 +7,7 @@
 - [📂 Dossiers partagés](#dossiers-partagés)
 - [💾 Stockage avancé](#stockage-avancé)
 - [⛔ Sécurité d'accès](#sécurité-d'accès)
-
+- [📅 Avancée de la semaine](#av-sem)
 ---
 
 ### **📂 Dossiers partagés**
@@ -44,3 +44,10 @@ Mise en place d'une sécurité d'accès permettant aux utilisateurs de notre ent
   - **Utilisateurs standards** : connexion **autorisée** de 8h à 18h, du lundi au vendredi sur les clients (bloquée le reste du temps).
   - **Administrateurs** : droit à un **bypass** constamment.
   - **Gestion des exceptions** : prévoir un groupe **bypass**.
+
+---
+
+### **📅 Avancée de la semaine**
+<span id="av-sem"></span>
+
+Voici l'avancée de notre 4ème semaine ci-dessous :
