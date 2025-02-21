@@ -255,3 +255,4 @@ Mise en place d'une sécurité d'accès permettant aux utilisateurs de notre ent
 <span id="av-sem"></span>
 
 Voici l'avancée de notre 4ème semaine ci-dessous :
+<img src="https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/Plan%20R%C3%A9seau/av-sem%2005.png" alt="Plan Réseau">
