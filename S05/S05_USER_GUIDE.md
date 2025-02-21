@@ -173,7 +173,7 @@ Le RAID 1 est une solution de stockage en miroir où les données sont dupliqué
   ```bash
   sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdX /dev/sdY
   ```
-  ![RAID 1 Creation](https://upload.wikimedia.org/wikipedia/commons/3/3c/RAID_1.svg)
+  
 
 #### **Configuration du RAID 1**
 - Sauvegarder la configuration :  
@@ -217,7 +217,7 @@ LVM (Logical Volume Manager) est un système de gestion de volumes logiques perm
   ```bash
   sudo lvcreate -L 10G -n mon_lv mon_vg
   ```
-  ![LVM Schema](https://upload.wikimedia.org/wikipedia/commons/0/04/Linux_LVM.svg)
+
 
 #### **Configuration de LVM**
 - Formater le volume logique :  
