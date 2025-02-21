@@ -148,6 +148,7 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
 ```
 
 Chaque niveau de l'arborescence possède des **règles d'accès spécifiques** basées sur les groupes Active Directory (AD), garantissant que seuls les utilisateurs autorisés peuvent accéder aux ressources nécessaires.  
+
 ![arbo](https://github.com/WildCodeSchool/TSSR-2411-P3-G4-Pharmgreen/blob/main/Ressources/arbo.png)
 ---
 
