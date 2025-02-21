@@ -147,8 +147,6 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
 
 ```
 
-```
-
 Chaque niveau de l'arborescence possède des **règles d'accès spécifiques** basées sur les groupes Active Directory (AD), garantissant que seuls les utilisateurs autorisés peuvent accéder aux ressources nécessaires.
 
 ---
