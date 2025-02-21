@@ -31,57 +31,59 @@ L'arborescence des dossiers a été mise en place pour structurer l'infrastructu
 #### **Exemple d'arborescence :**
 
 ```
-Structure du dossier
-Le num‚ro de s‚rie du volume est 0000000D EE2F:6096
+## Structure du dossier
+
+```plaintext
+Le numéro de série du volume est 0000000D EE2F:6096
 C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
 +---Communication
 |   +---Directrice communication
-|   +---publicit‚
+|   +---publicité
 |   |   +---designer graphique
 |   |   +---photographe
 |   |   +---publicitaire
-|   |   +---responsable publicit‚
+|   |   +---responsable publicité
 |   |   \---Webmaster
 |   \---Relation publique et presse
-|       +---Charg‚ de communication
-|       +---Charg‚ de presse
-|       +---Charg‚ en droit de la communication
-|       \---Responsable relation m‚dia
-+---Direction FinanciŠre
-|   +---Contr“le de gestion
-|   |   \---controleur de gestion
+|       +---Chargé de communication
+|       +---Chargé de presse
+|       +---Chargé en droit de la communication
+|       \---Responsable relation média
++---Direction Financière
+|   +---Contrôle de gestion
+|   |   \---contrôleur de gestion
 |   +---Finance
 |   |   +---Analyste Financier
 |   |   \---DAF
-|   \---Service Comptabilit‚
-|       \---Comptabilit‚
-+---Direction G‚n‚ral
+|   \---Service Comptabilité
+|       \---Comptabilité
++---Direction Générale
 |   +---Assistant de direction
 |   +---CEO
 |   +---Directeur adjoint
-|   \---Secr‚taire
+|   \---Secrétaire
 +---Direction Marketing
 |   +---Marketing Digital
 |   |   +---Analyste web
 |   |   +---Community manager
 |   |   +---Content manager
 |   |   \---Responsable marketing digital
-|   +---Marketing op‚rationnel
+|   +---Marketing opérationnel
 |   |   +---Assistant marketing
-|   |   +---Charg‚ de promotion
+|   |   +---Chargé de promotion
 |   |   +---Chef de projet
 |   |   +---Coordinateur Marketing
-|   |   \---Responsable Marketing operationnel
+|   |   \---Responsable Marketing opérationnel
 |   +---Marketing Produit
 |   |   +---Chef de produit
-|   |   +---Gestionaire de marque
+|   |   +---Gestionnaire de marque
 |   |   \---Responsable de marque
-|   \---Marketing strat‚gique
+|   \---Marketing stratégique
 |       +---Analyste marketing
-|       +---Chef de produit Strat‚gique
-|       \---Directeur marketing strat‚gique
+|       +---Chef de produit Stratégique
+|       \---Directeur marketing stratégique
 +---R&D
-|   +---Innovation et strat‚gie
+|   +---Innovation et stratégie
 |   |   +---Chercheur
 |   |   \---Responsable recherche
 |   \---Laboratoire
@@ -90,10 +92,8 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
 +---Ressources
 |   +---logiciel
 |   |       googlechromestandaloneenterprise64.msi
-|   |       
 |   \---wallpaper
 |           wallpaper.png
-|           
 +---RH
 |   +---Direction RH
 |   |   +---Directeur adjoint RH
@@ -104,12 +104,12 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
 |   |   \---Agent RH performance
 |   +---Recrutement
 |   |   \---Agent RH
-|   \---Sant‚ et scurit‚ au travail
-|       +---Animateur s‚curit‚
+|   \---Santé et sécurité au travail
+|       +---Animateur sécurité
 |       +---Auditeur
 |       \---Technicien HSE
-+---Service g‚n‚raux
-|   +---Gestion immobiliŠre
++---Service généraux
+|   +---Gestion immobilière
 |   |   \---Gestionnaire immobilier
 |   \---Logistique
 |       +---Agent logistique
@@ -121,7 +121,7 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
 |       +---Juriste
 |       \---Responsable juridique
 +---Utilisateurs
-\---Ventes et d‚voloppement commercial
+\---Ventes et développement commercial
     +---ADV
     |   +---Gestionnaire ADV
     |   \---Responsable ADV
@@ -131,9 +131,9 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
     +---B2C
     |   +---Commercial B2C
     |   \---Responsable B2C
-    +---D‚veloppement internationnal
+    +---Développement international
     |   +---Commerce international
-    |   \---Directrice commercial
+    |   \---Directrice commerciale
     +---Grands comptes
     |   +---Commercial
     |   \---Responsable Grands comptes
@@ -143,6 +143,10 @@ C:\USERS\ALEXA\DESKTOP\PHARMGREEN.INTRA
     \---Service client
         +---Agent client
         \---Responsable service client
+
+
+```
+
 ```
 
 Chaque niveau de l'arborescence possède des **règles d'accès spécifiques** basées sur les groupes Active Directory (AD), garantissant que seuls les utilisateurs autorisés peuvent accéder aux ressources nécessaires.
