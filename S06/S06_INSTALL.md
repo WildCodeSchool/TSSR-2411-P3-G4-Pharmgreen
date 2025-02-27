@@ -212,7 +212,6 @@ Graylog utilise OpenSearch comme moteur d’indexation pour stocker et recherche
 
 ---
 
-Vous pouvez enregistrer ce guide sous forme de fichier avec l’extension `.md`, par exemple : `installation_graylog.md`.
 
 
 
