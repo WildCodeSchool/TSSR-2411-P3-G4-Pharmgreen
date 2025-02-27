@@ -1,10 +1,13 @@
-### **🖥️ Graylog**
-
-
-
-## Installation de Graylog sur Debian 🚀
+# TSSR-2411-P3-G4-Pharmgreen
+## 📚 Pharmgreen S06_INSTALL.md
+---
+## 📑 Sommaire
+- [🖥️ Graylog](#graylog)
+- [📡 Zabbix](#zabbix)
 
 ---
+## **🖥️ Graylog**
+<span id="graylog"></span> 
 
 ### 1️⃣ Préparer la configuration et le système
 
@@ -211,9 +214,159 @@ Graylog utilise OpenSearch comme moteur d’indexation pour stocker et recherche
   - Utilisez le compte `admin` et le mot de passe défini précédemment.
 
 ---
+## **📡 Zabbix**
+<span id="zabbix"></span> 
 
+### 1️⃣ Installation du dépôt Zabbix
 
+- **Télécharger et installer le dépôt**
 
+  ```bash
+  wget https://repo.zabbix.com/zabbix/7.2/release/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.2+debian12_all.deb
+  sudo dpkg -i zabbix-release_latest_7.2+debian12_all.deb
+  ```
 
+  - **Mettre à jour les paquets**
 
+  ```bash
+  sudo apt-get update
+  ```
 
+---
+
+### 2️⃣ Installation des composants Zabbix
+
+- **Installer les paquets principaux**
+
+  ```bash
+  sudo apt-get install -y zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-sql-scripts zabbix-agent
+  ```
+
+---
+
+### 3️⃣ Configuration de MariaDB
+
+- **Installer MariaDB**
+
+  ```bash
+  sudo apt-get install -y mariadb-server
+  sudo systemctl enable --now mariadb
+  ```
+
+- **Créer la base de données et l'utilisateur**
+
+  ```bash
+  sudo mysql -uroot -p
+  ```
+
+- **Exécutez dans MySQL**
+
+  ```bash
+  CREATE DATABASE zabbix CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+  CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'VotreMotDePasseFort';
+  GRANT ALL PRIVILEGES ON zabbix.* TO 'zabbix'@'localhost';
+  SET GLOBAL log_bin_trust_function_creators = 1;
+  FLUSH PRIVILEGES;
+  EXIT;
+  ```
+
+---
+
+### 4️⃣ Importation du schéma de base de données
+
+- **Importer les données initiales**
+
+  ```bash
+  zcat /usr/share/zabbix/sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix -p zabbix
+  ```
+
+- **Sécuriser la configuration MariaDB**
+
+  ```bash
+  sudo mysql -uroot -p
+  ```
+
+  
+  ```bash
+  SET GLOBAL log_bin_trust_function_creators = 0;
+  EXIT;
+  ```
+
+---
+### **🔒 Sécurité des mots de passe**
+
+> [!WARNING]  
+> **Fondamental :** Ne jamais stocker les mots de passe en clair !
+>
+> **Coffres-forts de mots de passe :** Utilisez un gestionnaire de mots de passe pour stocker et gérer les mots de passe de manière sécurisée. Zabbix peut s'intégrer avec certains gestionnaires de mots de passe.
+>
+> **Chiffrement :** Chiffrez le mot de passe avant de le stocker dans le fichier de configuration. Assurez-vous d'utiliser un algorithme de chiffrement fort et de stocker la clé de chiffrement de manière sécurisée.
+
+https://www.zabbix.com/documentation/7.2/en/manual/appendix/install/db_encrypt
+
+---
+
+### 5️⃣ Configuration du serveur Zabbix
+
+- **Éditer la configuration**
+  - Et modifier la ligne (ou ajouter) DBPassword=
+
+  ```bash
+  sudo nano /etc/zabbix/zabbix_server.conf
+  DBPassword=VotreMotDePasseFort
+  ```
+
+---
+
+### 6️⃣ Configuration de Nginx et PHP
+
+- **Configurer le virtual host**
+  - Modifier
+
+  ```bash
+  listen 8080;
+  server_name VOTRE_IP_SERVEUR;
+  ```
+
+- **Redémarrer les services**
+
+  ```bash
+  sudo systemctl restart nginx php8.2-fpm
+  ```
+
+---
+
+### 7️⃣ Démarrage des services
+
+- **Activer et démarrer Zabbix**
+
+  ```bash
+  sudo systemctl enable --now zabbix-server zabbix-agent nginx php8.2-fpm
+  ```
+
+---
+
+### 8️⃣ Accès à l'interface web
+
+- **Ouvrir dans votre navigateur**
+
+  ```bash
+  http://VOTRE_IP_SERVEUR:8080
+  ```
+
+- **Configuration initiale**
+  - Suivre l'assistant d'installation
+
+- **Identifiants par défaut :**
+  - Utilisateur : `Admin`
+  - Mot de passe : `zabbix`
+
+---
+
+### 🔍 Vérification finale (optionnel)
+
+- **Vérifier l'état des services**
+
+  ```bash
+  sudo systemctl status zabbix-server nginx mariadb
+  ```
