@@ -1,8 +1,6 @@
-# PARTENARIAT-ENTREPRISE - VPN & STOCKAGE
-## 📚 Documentation Guide - PARTENARIAT D'ENTREPRISE
+# TSSR-2411-P3-G4-Pharmgreen
+## 📚 Pharmgreen S08_INSTALL.md
 
-> [!WARNING]  
-> Cette documentation est en cours d'élaboration. Certaines informations pourraient être incomplètes ou nécessiter des mises à jour.
 ---
 ## 📑 Sommaire
 - [🔒 VPN site-à-site](#vpn-site-à-site)
