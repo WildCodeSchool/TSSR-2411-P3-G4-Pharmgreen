@@ -1,5 +1,5 @@
 # TSSR-2411-P3-G4-Pharmgreen
-## 📚 Pharmgreen S03_INSTALL.md
+## 📚 Pharmgreen S07_INSTALL.md
 ---
 ## 📑 Sommaire
 - [🔐 BitWarden](#bitwarden)
