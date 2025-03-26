@@ -8,8 +8,7 @@
 - [🔒 VPN site-à-site](#vpn-site-à-site)
 - [📁 Stockage partagé](#stockage-partagé)
 - [🛠️ Configuration et Guide](#configuration-et-guide)
-- [⛔ Sécurité d'accès](#sécurité-daccès)
-- [📅 Avancée de la semaine](#avancée-de-la-semaine)
+- 
 ---
 
 ### **🔒 VPN site-à-site**
@@ -64,6 +63,7 @@
 <span id="configuration-et-guide"></span>
 
 #### **Exemple de configuration pour le VPN (pfsense)**
+
 ```bash
 # Exemple de configuration de la phase 1 :
 - Accéder à l'interface web de pfsense
@@ -73,3 +73,25 @@
    - Remote Gateway : [Adresse IP du site distant]
    - Authentification : Mutual PSK
    - Chiffrement : AES 256 (ou selon vos besoins)
+```
+--- 
+
+### **🚧 Problèmes rencontrés**
+<span id="problemes-rencontres"></span>
+
+Au cours de la mise en œuvre du VPN site-à-site et de la configuration des dossiers partagés, plusieurs problèmes ont été identifiés et résolus :
+
+- **Utilisation initiale d'OpenVPN au lieu de IPsec**  
+  La solution OpenVPN a d'abord été testée pour établir une connexion site-à-site. Cependant, elle ne répondait pas aux exigences de performance et de sécurité souhaitées pour ce partenariat, ce qui a conduit à la décision de migrer vers une solution IPsec sur pfsense.
+
+- **Mauvaise configuration des adresses IP des tunnels IPsec**  
+  Les tunnels étaient mal configurés car les bonnes adresses IP n'avaient pas été renseignées. Une vérification et une correction minutieuse des adresses IP sur chaque tunnel ont permis de rétablir la connectivité.
+
+
+
+
+
+
+
+
+
