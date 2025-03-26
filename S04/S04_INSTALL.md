@@ -15,7 +15,7 @@
 
 - Une image ISO de pfSense téléchargeable sur https://www.pfsense.org/
 
-### **2️⃣ Installation de pfSense
+### **2️⃣ Installation de pfSense**
 
 - Démarrer sur l'ISO de pfSense
 
@@ -27,7 +27,7 @@
 
 - Installer les paquets nécessaires
 
-### **3️⃣ Configuration Initiale
+### **3️⃣ Configuration Initiale**
 
 - Accéder à l'interface web
 
