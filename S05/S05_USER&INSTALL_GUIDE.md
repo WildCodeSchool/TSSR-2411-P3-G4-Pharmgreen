@@ -1,5 +1,5 @@
 # TSSR-2411-P3-G4-Pharmgreen
-## 📚 Pharmgreen S05_USER_GUIDE.md
+## 📚 Pharmgreen S05_USER&INSTALL_GUIDE.md
 > [!WARNING]  
 > Si vous voyez ce message, c'est que la documentation n'est sûrement pas finie et qu'il est possible qu'il y ait des manques d'informations ou autres.
 ---
