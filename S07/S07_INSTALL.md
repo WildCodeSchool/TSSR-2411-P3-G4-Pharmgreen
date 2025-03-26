@@ -136,5 +136,26 @@ sudo reboot
 
 - **URL :** https://mail.pharmgreen.com/iredadmin
 
+---
 
+### **🔥 Activation du pare-feu**
 
+```bash
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 587/tcp
+sudo ufw allow 993/tcp
+sudo ufw enable
+```
+
+### **🌍 Configuration DNS**
+
+Ajoutez ces enregistrements DNS pour iRedMail :
+
+- **MX :** `mail.example.com`
+
+- **SPF :** `v=spf1 mx -all`
+
+- **DKIM :** Généré après l'installation
+
+- **DMARC :** `_dmarc.example.com TXT "v=DMARC1; p=none;"`
